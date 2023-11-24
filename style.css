@@ -1,0 +1,500 @@
+/* Import Fonts */
+@import url('fonts/css/clash-display.css');
+@import url('fonts/css/satoshi.css');
+
+
+body 
+{
+    font-family: 'ClashDisplay-Regular', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+*
+{
+    box-sizing: border-box;
+}
+a
+{
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'ClashDisplay-Bold';
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+.header-links a {
+    font-family: 'Satoshi-Regular';
+}
+
+.left-side-content
+{
+    font-family: 'ClashDisplay-Bold';
+    color: white;
+    background: #2A254B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-side-content p 
+{
+    margin: 60px;
+    font-size: 18px;
+    font-family: 'Satoshi-Regular';
+    font-weight: 400;
+}
+.hero-content img 
+{
+    max-width: 100% !important;
+    height: auto !important;
+}
+header{
+    width: 100%;
+}
+.brand-different-title
+{
+    margin: 40px;
+}
+.hero-title
+{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-links
+{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Satoshi-Regular';
+}
+
+.container
+{
+    max-width: 1400px;
+    width: 100%;
+}
+
+.hero-content
+{
+    display: flex;
+    margin-top: 40px;
+    height: 600px;
+}
+.hero-content p 
+{
+    font-size: 18px;
+    font-family: 'Satoshi-Regular';
+}
+.brand-different
+{
+    display: flex;
+}
+
+.ceramics-items
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+}
+.popular-items
+{
+    display: flex;
+}
+.popular-item img 
+{
+    max-width: 100% !important;
+    height: auto !important;
+}
+.example-information
+{
+    display: flex;
+}
+
+h1
+{
+    font-weight: 400;
+    font-family: 'ClashDisplay-Regular';
+}
+
+.footer-email-wrapper
+{
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100vw;
+    background: #2A254B;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.footer-columns-wrapper
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    font-family: 'ClashDisplay-Regular';
+}
+.footer-column {
+    width: 25%;
+    padding: 10px;
+}
+
+.footer-column h3 
+{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'ClashDisplay-Regular';
+}
+
+.footer-menu a,
+.footer-categories a,
+.footer-company a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    line-height: 18.9px;
+}
+.footer__icons img
+{
+    background: transparent;
+}
+.footer-email {
+    
+    width: fit-content;
+    float: left;
+    display: flex; /* Use flexbox for better alignment */
+}
+.copyright
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.email-input {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+    display: block; /* Change input to block element */
+    height: max-content;
+    border: none;
+    background: #4A4666;
+    color: white;
+    font-family: 'Satoshi-Regular';
+}
+
+.signup-button {
+    width: 30%; /* Adjust the width as needed */
+    padding: 8px;
+    box-sizing: border-box;
+    display: block; /* Change button to block element */
+    height: max-content;
+    background: white;
+    font-family: 'Satoshi-Regular';
+    border: none;
+}
+
+.border-line {
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.copyright {
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright-icons {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.collection-btn
+{
+    margin-left: 40px;
+    width: 170px;
+    height: 56px;
+    color: white;
+    background: #494565;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    font-family: 'Satoshi-Regular';
+    cursor: pointer;
+}
+.view-collection-btn
+{
+    border: none;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    padding: 16px 32px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.benefits-input
+{
+    width: 30%;
+    height: 300px;
+}
+.get-collection-btn
+{
+    border: none;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    padding: 16px 32px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 40%;
+}
+.ceramic-item img
+{
+    max-width: 100% !important;
+    height: auto !important;
+}
+.ceramics-section button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.popular-item img 
+{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+}
+.brand-different
+{
+    color: black;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-different p
+{
+    color: black;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+}
+.brand-different img
+{
+    display: flex;
+    justify-content: center;
+}
+.brand-different-title{
+ display: flex;
+ justify-content: center;   
+ color: black;
+ margin-top: 100px;
+ font-family: 'ClashDisplay-Regular';
+ font-size: 24px;
+}
+
+
+.new-ceramics-title
+{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+
+.ceramic-item
+{
+    font-family: 'ClashDisplay-Regular';
+}
+
+.ceramic-item p 
+{
+    font-family: 'Satoshi-Regular';
+}
+
+.ceramics-section 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popular-products-title
+{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 32px;
+    margin-top: 150px;
+}
+
+.popular-item
+{
+    font-family: 'ClashDisplay-Regular';
+}
+
+.popular-item p 
+{
+    font-family: 'Satoshi-Regular';
+}
+
+
+.popular-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.benefits
+{
+    font-family: 'ClashDisplay-Regular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.benefits p
+{
+    font-family: 'Satoshi-Regular';
+}
+
+.example-information
+{
+    margin-top: 100px;
+}
+.example-information-left-side-content
+{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.example-information-left-side-content p 
+{
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+}
+
+.example-information img 
+{
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.example-information img,
+.hero-content img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* or 'contain' based on your preference */
+}
+
+
+
+.burger-menu {
+    display: none;
+}
+
+/* Width 1024*/
+@media  (max-width: 1024px) {
+    .hero-content img 
+    {
+            display: none;
+    }
+    .example-information
+    {
+        flex-direction: column;
+    }
+    .header-links
+    {
+        display: none;
+    }
+    .brand-different
+    {
+        flex-direction: column
+    }
+    .ceramics-items
+    {
+        flex-direction: column;
+    }
+
+    .example-information img 
+    {
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+    }
+
+    .burger-menu
+    {
+        display: block;
+    }
+    .user-avatar, .shopping-cart
+    {
+        display: none;
+    }
+    .footer-columns-wrapper
+    {
+        display: block;
+    }
+    .brand-different-item
+    {
+        width: 300px;
+    }
+}
+
+
+.benefits-input-email
+{
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.sign-up-btn
+{
+    border: none;
+    cursor: pointer;
+    background: #2A254B;
+    color: white;
+    padding: 8px;
+    height: 50px;
+    font-family: 'Satoshi-Regular';
+}
